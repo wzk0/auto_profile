@@ -97,7 +97,7 @@ def bt_wt(dic,degree):
 		language='*不告诉你！*'
 	else:
 		language=language
-	count='✨ Star数: '+str(dic['stargazers_count'])+' —— '+'⚓ Fork数: '+str(dic['forks_count'])
+	count='✨ Star数: **'+str(dic['stargazers_count'])+'** —— '+'⚓ Fork数: **'+str(dic['forks_count'])+'**'
 	if dic['license']==None:
 		license='*不告诉你！*'
 	else:
@@ -111,13 +111,13 @@ def bt_wt(dic,degree):
 			wt(rt_ht()+" [%s](%s)"%(name2,url)+'\n')
 		if degree==3:
 			wt(rt_ht()+" [%s](%s)"%(name2,url)+'\n')
-			wt('> 💬 语言: '+language+'\n')
+			wt('> 💬 语言: **'+language+'**\n')
 		if degree==4:
 			wt(rt_ht()+" [%s](%s)"%(name2,url)+'\n')
-			wt('> 💬 语言: '+language+' —— '+count+'\n')
+			wt('> 💬 语言: **'+language+'** —— '+count+'\n')
 		if degree==5:
 			wt(rt_ht()+" [%s](%s)"%(name2,url)+'\n')
-			wt('> 💬 语言: %s —— %s —— 📚 许可证: %s\n'%(language,count,license))
+			wt('> 💬 语言: **%s** —— %s —— 📚 许可证: **%s**\n'%(language,count,license))
 		wt("---\n")
 for r in repo:
 	bt_wt(r,degree)
