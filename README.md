@@ -32,7 +32,7 @@
 
 <img align='right' src='https://github-readme-stats.vercel.app/api/top-langs/?username=wzk0&layout=compact&theme=tokyonight'>
 
-<br><br><br><br><br><br><br><br><hr>
+<br><br><br><br><br><br><br><br>
 
 * 👉 **头像 (本人照片🔮)**
 

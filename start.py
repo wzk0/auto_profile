@@ -45,7 +45,7 @@ wt("<img align='left' src='https://github-readme-stats.vercel.app/api?username=%
 
 wt("<img align='right' src='https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&theme=tokyonight'>"%username+'\n')
 
-wt('<br><br><br><br><br><br><br><br><hr>\n')
+wt('<br><br><br><br><br><br><br><br>\n')
 
 wt('* 👉 **头像 (本人照片🔮)**\n')
 
