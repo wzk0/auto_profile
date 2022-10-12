@@ -41,11 +41,11 @@ wt("<img align='center' src='https://i0.hdslb.com/bfs/article/02db465212d3c374a4
 
 wt('\n<h3 align="center">💯 关于我！👇</h3>\n\n---\n')
 
-wt("<img align='left' src='https://github-readme-stats.vercel.app/api?username=%s&theme=tokyonight&show_icons=true'>"%username+'\n')
+wt("<img align='center' src='https://github-readme-stats.vercel.app/api?username=%s&theme=tokyonight&show_icons=true'>"%username+'\n')
 
-wt("<img align='right' src='https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&theme=tokyonight'>"%username+'\n')
+wt("<img align='center' src='https://github-readme-stats.vercel.app/api/top-langs/?username=%s&layout=compact&theme=tokyonight'>"%username+'\n')
 
-wt('<br><br><br><br><br><br><br><br>\n')
+wt('<hr>\n')
 
 wt('* 👉 **头像 (本人照片🔮)**\n')
 
